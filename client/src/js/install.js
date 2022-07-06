@@ -9,7 +9,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
 
   // Implement a click event handler on the `butInstall` element
   butInstall.addEventListener("click", () => {
-    installBtn.setAttribute("hidden", true);
+    installBtn.setAttribute("invisible", true);
     installBtn.textContent = "Installed!";
   });
 });
